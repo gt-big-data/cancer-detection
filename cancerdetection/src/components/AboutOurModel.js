@@ -5,7 +5,7 @@ import './AboutOurModel.css';
 export default function AboutOurModel() {
     return(
 
-        <div class = "MESSAGE">
+        <div class = "message">
             <svg>
                 <rect class = "messageBox">
                     <h2 class = "randomText">Hi</h2>
