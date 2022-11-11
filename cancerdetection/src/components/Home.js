@@ -21,7 +21,9 @@ export default function Home() {
         <Link to = "recentnews">
           <button>Recent news</button>
         </Link>
-        <button>About our model</button>
+        <Link to = "aboutourmodel">
+            <button>About our model</button>
+        </Link>
       </ul>
     </div>
     
