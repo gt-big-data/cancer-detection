@@ -1,10 +1,10 @@
-body {
-    background-color:#fff1c97c;
+    body {
+    background-color:#e8e8e8;
     font-family: optima;
     }
     
     .imageBox {
-    fill:lightgrey;
+    fill: white;
     border:1px;
     width:500px;
     height:600px;
@@ -44,14 +44,15 @@ body {
     }
     
     .infoBox {
-      fill:lightgrey;
+      fill:white;
       height:150px;
       width:300px;
     }
     
     .information {
       position:absolute;
-      top:225px;
+      top:275px;
+      left:200px;
     }
     
     .infoText {
@@ -64,7 +65,7 @@ body {
     .boxOfResources {
         height: 300px;
       width:250px;
-      fill:lightgrey;
+      fill:white;
     }
     
     .resourcesBox {
@@ -88,8 +89,57 @@ body {
     }
     
     .zoomCircle {
-        fill:lightgrey;
+        fill:white;
       cx:100;
       cy:90;
       r:60;
     }
+
+    .files input {
+      outline: 2px dashed #000000;
+      outline-offset: -10px;
+      -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+      transition: outline-offset .15s ease-in-out, background-color .15s linear;
+      padding: 120px 0px 85px 35%;
+      text-align: center !important;
+      margin: 0;
+      width: 100% !important;
+  }
+  .files input:focus{     outline: 2px dashed #000000;  outline-offset: -10px;
+      -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+      transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+   }
+  .files{ 
+      position:relative;
+      top: 450px;
+      }
+  .files:after {  pointer-events: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 50px;
+      right: 0;
+      height: 56px;
+      content: "";
+      background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+      display: block;
+      margin: 0 auto;
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+  .color input{ background-color:#f1f1f1;}
+  .files:before {
+      position: absolute;
+      bottom: 10px;
+      left: 0;  pointer-events: none;
+      width: 100%;
+      right: 0;
+      height: 100px;
+      content: " or drag it here. ";
+      display: block;
+      margin: 0 auto;
+      color: #000000;
+      font-weight: 600;
+      text-transform: capitalize;
+      text-align: center;
+  }
