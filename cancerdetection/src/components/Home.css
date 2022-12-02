@@ -1,22 +1,22 @@
 body {
-    background-color:#aaf0d1;
+    background-color:#fff1c97c;
     font-family: optima;
     }
     
     .imageBox {
     fill:lightgrey;
     border:1px;
-    width:300px;
-    height:400px;
+    width:500px;
+    height:600px;
     }
     
     .topLeft {
       position:absolute;
-        top:35px;
+        top:100px;
     }
     
     .imageText {
-        position:absolute;
+      position:absolute;
       top:30%;
       left:12%;
       font-size:15px;
@@ -28,7 +28,7 @@ body {
     }
     
     ul {
-        list-style-type: none;
+      list-style-type: none;
       margin:0;
       padding:0;
     }
