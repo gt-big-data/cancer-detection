@@ -1,5 +1,8 @@
 body {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 057bf22 (Merge branch 'data-viz' of https://github.com/gt-big-data/cancer-detection into data-viz)
     background-color:#aaf0d1;
     font-family: optima;
     }
@@ -93,6 +96,7 @@ body {
       cx:100;
       cy:90;
       r:60;
+<<<<<<< HEAD
     }
 =======
   background-color:rgb(24, 24, 84);
@@ -149,3 +153,6 @@ body {
   top:0px;
 }
 >>>>>>> Stashed changes
+=======
+    }
+>>>>>>> parent of 057bf22 (Merge branch 'data-viz' of https://github.com/gt-big-data/cancer-detection into data-viz)

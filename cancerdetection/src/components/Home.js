@@ -1,13 +1,9 @@
 import React from "react";
 import './Home.css';
 import {Link} from 'react-router-dom';
-<<<<<<< Updated upstream
-=======
 import {useState} from 'react';
 import axios from 'axios';
 import cancerImage from './cancerImage.png';
->>>>>>> Stashed changes
-
 
 export default function Home() {
     return (
@@ -20,6 +16,7 @@ export default function Home() {
       </svg>
     </div>
     
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
   <div class = "allBoxes">
@@ -48,6 +45,8 @@ export default function Home() {
     
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 057bf22 (Merge branch 'data-viz' of https://github.com/gt-big-data/cancer-detection into data-viz)
     <div class = "navBar">
     	<ul>
       	<button>Home</button>
