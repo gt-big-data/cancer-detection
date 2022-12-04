@@ -3,21 +3,12 @@ import './Home.css';
 import {Link} from 'react-router-dom';
 import {useState} from 'react';
 import axios from 'axios';
-import cancerImage from './cancerImage.png';
+
 
 export default function Home() {
     return (
-        <div class = "MASTER">
-        <div class = "topLeft">
-      <svg>
-        <rect class = "imageBox"> 
-          <h3 class = "imageText">Insert image of scan here</h3>
-        </rect>
-      </svg>
-    </div>
-
+    
   <div class = "allBoxes">
-      
       <div class = "imageBox">
         <svg>
           <rect> 
@@ -34,16 +25,14 @@ export default function Home() {
         </div>
 
         <div class = "image">
-          <img src = {cancerImage} height = "200" width = "400"></img>
         </div>
-        
       </div>
 
-    
+    <img src = "cancerImage.png"></img>
 
     <div class = "navBar">
-    	<ul>
-      	<button>Home</button>
+      <ul>
+        <button>Home</button>
         <button>Back</button>
         <Link to = "recentnews">
           <button>Recent news</button>
@@ -54,17 +43,9 @@ export default function Home() {
       </ul>
     </div>
     
-    <div class = "toolBar">
-    	<ul>
-      	<button>Zoom In</button>
-        <button>Zoom Out</button>
-        <button>Annotate</button>
-      </ul>
-    </div>
-    
-    <div class = "information">
+    <div class = "informationBox">
       <svg>
-        <rect class = "infoBox">
+        <rect>
         	<div class = "infoText">
             <h3>Type of cancer: </h3>
             <h3>Malignant/benign? </h3>
@@ -77,7 +58,7 @@ export default function Home() {
     
     <div class = "resourcesBox">
     	<svg>
-      	<rect class = "boxOfResources">
+      	<rect>
         	<div class = "resourcesText">
             <h3>What makes this a tumor(brief description of what makes 						this malignant/benign): </h3>
             <h3>Next steps: button to learn more</h3>
@@ -87,15 +68,15 @@ export default function Home() {
     	
     </div>
     
-    <div class = "zoomedIn">
-    	<svg>
-      	<circle class = "zoomCircle">
-        </circle>
-      </svg>    
-      
-    </div>
-    </div>
+    <div class = "zoomBox">
+        <svg>
+          <rect>
+          </rect>
+        </svg>    
     </div>
 
-    );
+  </div>
+
+  );
 }
+
