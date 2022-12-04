@@ -9,13 +9,15 @@ import { FileUploader } from './components/FileUploader';
 function App() {
   return (
     <><div className="App">
-          <FileUploader />
-      </div><Routes>
-              <Route path='/' element={<Home />} />;
-              <Route path='recentnews' element={<RecentNews />} />;
-              <Route path='aboutourmodel' element={<AboutOurModel />} />;
+      <FileUploader/>
+      </div>
 
-          </Routes></>
+        <Routes>
+            <Route path='/' element={<Home />} />;
+            <Route path='recentnews' element={<RecentNews />} />;
+            <Route path='aboutourmodel' element={<AboutOurModel />} />;
+        </Routes></>
+
   );
 }
 
