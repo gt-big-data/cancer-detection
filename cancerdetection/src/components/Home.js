@@ -15,10 +15,7 @@ export default function Home() {
         </rect>
       </svg>
     </div>
-    
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
+
   <div class = "allBoxes">
       
       <div class = "imageBox">
@@ -44,9 +41,6 @@ export default function Home() {
 
     
 
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 057bf22 (Merge branch 'data-viz' of https://github.com/gt-big-data/cancer-detection into data-viz)
     <div class = "navBar">
     	<ul>
       	<button>Home</button>
@@ -99,6 +93,7 @@ export default function Home() {
         </circle>
       </svg>    
       
+    </div>
     </div>
     </div>
 
