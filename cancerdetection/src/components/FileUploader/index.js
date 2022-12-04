@@ -25,15 +25,18 @@ export const FileUploader = ({}) => {
     };
 
     return (
-        <form method="post" action="#" id="#" onSubmit={onSubmit}>
-            <div class="form-group files">
-                <label>Upload Your Image </label>
-                <input type="image"
-                        onChange = {onInputChange}
-                        className="form-control"
-                        multiple/>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form method="post" action="#" id="#" onSubmit={onSubmit}>
+                    <div class="form-group files">
+                        <label>Upload Your File </label>
+                        <input type="file" class="form-control" multiple=""/>
+                    </div>
+                    <button>Submit</button>
+                </form>
             </div>
-            <button>Submit</button>
-          </form>
+        </div>
+    </div>
     )
 };
