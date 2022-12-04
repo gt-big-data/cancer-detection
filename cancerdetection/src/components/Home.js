@@ -1,6 +1,12 @@
 import React from "react";
 import './Home.css';
 import {Link} from 'react-router-dom';
+<<<<<<< Updated upstream
+=======
+import {useState} from 'react';
+import axios from 'axios';
+import cancerImage from './cancerImage.png';
+>>>>>>> Stashed changes
 
 
 export default function Home() {
@@ -14,6 +20,34 @@ export default function Home() {
       </svg>
     </div>
     
+<<<<<<< Updated upstream
+=======
+  <div class = "allBoxes">
+      
+      <div class = "imageBox">
+        <svg>
+          <rect> 
+            <h3 class = "imageText">Insert image of scan here</h3>
+          </rect>
+        </svg>
+
+        <div class = "toolBar">
+          <ul>
+            <button>Zoom In</button>
+            <button>Zoom Out</button>
+            <button>Annotate</button>
+          </ul>
+        </div>
+
+        <div class = "image">
+          <img src = {cancerImage} height = "200" width = "400"></img>
+        </div>
+        
+      </div>
+
+    
+
+>>>>>>> Stashed changes
     <div class = "navBar">
     	<ul>
       	<button>Home</button>

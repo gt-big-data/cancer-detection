@@ -1,4 +1,5 @@
 body {
+<<<<<<< Updated upstream
     background-color:#aaf0d1;
     font-family: optima;
     }
@@ -93,3 +94,58 @@ body {
       cy:90;
       r:60;
     }
+=======
+  background-color:rgb(24, 24, 84);
+}
+
+.imageBox {
+  background-color:rgba(193, 193, 193, 0.775);
+  width:400px;
+  height: 200px;
+  position:absolute;
+  top:100px;
+  left:100px;
+}
+
+.navBar {
+  background-color:rgba(193, 193, 193, 0.775);
+  position:absolute;
+  top:5px;
+}
+
+.informationBox {
+  background-color:rgba(193, 193, 193, 0.775);
+  width:400px;
+  height: 200px;
+  position:absolute;
+  top:350px;
+  left:100px;
+}
+
+.resourcesBox {
+  background-color:rgba(193, 193, 193, 0.775);
+  width:400px;
+  height: 200px;
+  position:absolute;
+  top:350px;
+  left:600px;
+}
+
+.zoomBox {
+  background-color:rgba(193, 193, 193, 0.775);
+  width:400px;
+  height: 200px;
+  position:absolute;
+  top:100px;
+  left:600px;
+}
+
+.toolBar {
+  position:relative;
+}
+
+.image {
+  position:absolute;
+  top:0px;
+}
+>>>>>>> Stashed changes
