@@ -1,38 +1,22 @@
 import React from "react";
 import './Home.css';
 import {Link} from 'react-router-dom';
-import {useState} from 'react';
-import axios from 'axios';
 
 
 export default function Home() {
     return (
+        <div class = "MASTER">
+        <div class = "topLeft">
+      <svg>
+        <rect class = "imageBox"> 
+          <h3 class = "imageText">Insert image of scan here</h3>
+        </rect>
+      </svg>
+    </div>
     
-  <div class = "allBoxes">
-      <div class = "imageBox">
-        <svg>
-          <rect> 
-            <h3 class = "imageText">Insert image of scan here</h3>
-          </rect>
-        </svg>
-
-        <div class = "toolBar">
-          <ul>
-            <button>Zoom In</button>
-            <button>Zoom Out</button>
-            <button>Annotate</button>
-          </ul>
-        </div>
-
-        <div class = "image">
-        </div>
-      </div>
-
-    <img src = "cancerImage.png"></img>
-
     <div class = "navBar">
-      <ul>
-        <button>Home</button>
+    	<ul>
+      	<button>Home</button>
         <button>Back</button>
         <Link to = "recentnews">
           <button>Recent news</button>
@@ -43,9 +27,17 @@ export default function Home() {
       </ul>
     </div>
     
-    <div class = "informationBox">
+    <div class = "toolBar">
+    	<ul>
+      	<button>Zoom In</button>
+        <button>Zoom Out</button>
+        <button>Annotate</button>
+      </ul>
+    </div>
+    
+    <div class = "information">
       <svg>
-        <rect>
+        <rect class = "infoBox">
         	<div class = "infoText">
             <h3>Type of cancer: </h3>
             <h3>Malignant/benign? </h3>
@@ -58,7 +50,7 @@ export default function Home() {
     
     <div class = "resourcesBox">
     	<svg>
-      	<rect>
+      	<rect class = "boxOfResources">
         	<div class = "resourcesText">
             <h3>What makes this a tumor(brief description of what makes 						this malignant/benign): </h3>
             <h3>Next steps: button to learn more</h3>
@@ -68,15 +60,14 @@ export default function Home() {
     	
     </div>
     
-    <div class = "zoomBox">
-        <svg>
-          <rect>
-          </rect>
-        </svg>    
+    <div class = "zoomedIn">
+    	<svg>
+      	<circle class = "zoomCircle">
+        </circle>
+      </svg>    
+      
+    </div>
     </div>
 
-  </div>
-
-  );
+    );
 }
-
