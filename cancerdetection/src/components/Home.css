@@ -1,5 +1,5 @@
 body {
-  background-color:rgb(37, 37, 71);
+  background-color:rgb(30, 30, 95);
 }
 
 .imageBox {
@@ -47,6 +47,7 @@ body {
   .toolBar {
     position:relative
   }
+
 .imageBox {
   background-color:rgba(193, 193, 193, 0.775);
   width:400px;
@@ -90,5 +91,12 @@ body {
 }
 
 .toolBar {
-  position:relative
+  position:relative;
+}
+
+.image {
+  position:absolute;
+  padding:5px;
+  top:0px;
+  
 }

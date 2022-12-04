@@ -3,6 +3,7 @@ import './Home.css';
 import {Link} from 'react-router-dom';
 import {useState} from 'react';
 import axios from 'axios';
+import cancerImage from "./cancerImage.png";
 
 
 export default function Home() {
@@ -25,7 +26,9 @@ export default function Home() {
         </div>
 
         <div class = "image">
+          <img src = {cancerImage} height = "190" width = "390"></img>
         </div>
+
       </div>
 
     <img src = "cancerImage.png"></img>
@@ -65,7 +68,6 @@ export default function Home() {
           </div>
         </rect>
       </svg>
-    	
     </div>
     
     <div class = "zoomBox">
