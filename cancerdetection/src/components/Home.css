@@ -61,6 +61,7 @@ body {
   background-color:rgba(193, 193, 193, 0.775);
   position:absolute;
   top:5px;
+  width:10500px;
 }
 
 .informationBox {
@@ -105,3 +106,5 @@ body {
   padding:5px;
   top:0px;
 }
+
+
