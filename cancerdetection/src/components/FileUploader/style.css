@@ -13,8 +13,9 @@
     transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
     }
 .files
-{ position:absolute;
-    top: 450px;
+{   
+    position:absolute;
+    top: 220px;
     left:1100px;
 }
 .files:after {  pointer-events: none;

@@ -28,7 +28,7 @@ export default function Home() {
         </div>
       </div>
 
-      <img src = "cancerImage.png"></img>
+    <img src = "cancerImage.png"></img>
 
     <div class = "navBar">
       <ul>
