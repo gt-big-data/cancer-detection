@@ -61,6 +61,7 @@ body {
   background-color:rgba(193, 193, 193, 0.775);
   position:absolute;
   top:5px;
+  width:10500px;
 }
 
 .informationBox {
@@ -72,6 +73,14 @@ body {
   left:100px;
 }
 
+.infoText {
+  color:white;
+  font-family:optima;
+  position:absolute;
+  top:5px;
+  left:15px;
+}
+
 .resourcesBox {
   background-color:rgba(193, 193, 193, 0.775);
   width:400px;
@@ -79,6 +88,14 @@ body {
   position:absolute;
   top:350px;
   left:600px;
+}
+
+.resourcesText {
+  color:white;
+  font-family:optima;
+  position:absolute;
+  top:5px;
+  left:15px;
 }
 
 .zoomBox {
@@ -105,3 +122,5 @@ body {
   padding:5px;
   top:0px;
 }
+
+

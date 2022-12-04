@@ -28,6 +28,7 @@
         background-repeat: no-repeat;
     }
     .color input{ background-color:#c4c4c4;}
+    
     .files:before {
         position: absolute;
         bottom: 10px;
@@ -48,6 +49,8 @@
         position:absolute;
         top:200px;
         left:1025px;
+        width:225px;
+        color:white;
         width:300px;
         color:#c4c4c4;
         font-family:optima;

@@ -32,41 +32,51 @@ export default function Home() {
 
       </div>
 
-    <div class = "navBar">
-      <ul>
-        <button>Home</button>
-        <button>Back</button>
-        <Link to = "recentnews">
-          <button>Recent news</button>
-        </Link>
-        <Link to = "aboutourmodel">
-            <button>About our model</button>
-        </Link>
-      </ul>
-    </div>
+      <div class = "navBar">
+                <ul>
+                    <Link to = "/">
+                        <button>Home</button>
+                    </Link>
+
+                    <Link to = "/">
+                        <button>Back</button>
+                    </Link>
+                    
+                    <Link to = "recentnews">
+                        <button>Recent news</button>
+                    </Link>
+
+                    <Link to = "aboutourmodel">
+                        <button>About our model</button>
+                    </Link>
+                </ul>
+        </div>
     
     <div class = "informationBox">
       <svg>
         <rect>
-        	<div class = "infoText">
+        </rect>
+      </svg>
+
+      <div class = "infoText">
             <h3>Type of cancer: </h3>
             <h3>Malignant/benign? </h3>
             <h3>Certainty of analysis: </h3>
             <h3>Chance of recurrence: </h3>
           </div>
-        </rect>
-      </svg>
     </div>
-    
+
     <div class = "resourcesBox">
     	<svg>
       	<rect>
-        	<div class = "resourcesText">
-            <h3>What makes this a tumor(brief description of what makes this malignant/benign): </h3>
-            <h3>Next steps: button to learn more</h3>
-          </div>
         </rect>
       </svg>
+
+      <div class = "resourcesText">
+            <h3>What makes this a tumor(brief description of what makes this malignant/benign): </h3>
+            <h3>Next steps: button to learn more</h3>
+      </div>
+      
     </div>
     
     <div class = "zoomBox">
