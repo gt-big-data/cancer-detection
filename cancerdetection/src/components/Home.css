@@ -73,6 +73,14 @@ body {
   left:100px;
 }
 
+.infoText {
+  color:white;
+  font-family:optima;
+  position:absolute;
+  top:5px;
+  left:15px;
+}
+
 .resourcesBox {
   background-color:rgba(193, 193, 193, 0.775);
   width:400px;
@@ -80,6 +88,14 @@ body {
   position:absolute;
   top:350px;
   left:600px;
+}
+
+.resourcesText {
+  color:white;
+  font-family:optima;
+  position:absolute;
+  top:5px;
+  left:15px;
 }
 
 .zoomBox {
