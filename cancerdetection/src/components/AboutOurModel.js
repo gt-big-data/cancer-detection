@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+//import { EmbedModel } from './EmbedModel';
 import './AboutOurModel.css';
 
 export default function AboutOurModel() {
