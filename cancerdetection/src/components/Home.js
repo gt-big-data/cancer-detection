@@ -50,7 +50,7 @@ export default function Home() {
                         <button>About our model</button>
                     </Link>
                 </ul>
-      </div>
+        </div>
     
     <div class = "informationBox">
       <svg>
