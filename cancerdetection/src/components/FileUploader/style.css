@@ -12,7 +12,13 @@
         -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
         transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
      }
-    .files{ position:relative}
+
+    .files{ 
+        position:absolute;
+        top:150px;
+        left:1000px;
+        width:300px;
+    }
     .files:after {  pointer-events: none;
         position: absolute;
         top: 60px;
