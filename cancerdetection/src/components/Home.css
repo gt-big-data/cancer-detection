@@ -94,9 +94,14 @@ body {
   position:relative;
 }
 
-.image {
+.cancerImage {
   position:absolute;
   padding:5px;
   top:0px;
-  
+}
+
+.zoomedCancer {
+  position:absolute;
+  padding:5px;
+  top:0px;
 }

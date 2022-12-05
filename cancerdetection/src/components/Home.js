@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import {useState} from 'react';
 import axios from 'axios';
 import cancerImage from "./cancerImage.png";
+import zoomedCancer from "./zoomedCancer.png";
 
 
 export default function Home() {
@@ -25,13 +26,11 @@ export default function Home() {
           </ul>
         </div>
 
-        <div class = "image">
+        <div class = "cancerImage">
           <img src = {cancerImage} height = "190" width = "390"></img>
         </div>
 
       </div>
-
-    <img src = "cancerImage.png"></img>
 
     <div class = "navBar">
       <ul>
@@ -63,7 +62,7 @@ export default function Home() {
     	<svg>
       	<rect>
         	<div class = "resourcesText">
-            <h3>What makes this a tumor(brief description of what makes 						this malignant/benign): </h3>
+            <h3>What makes this a tumor(brief description of what makes this malignant/benign): </h3>
             <h3>Next steps: button to learn more</h3>
           </div>
         </rect>
@@ -75,7 +74,14 @@ export default function Home() {
           <rect>
           </rect>
         </svg>    
+
+        <div class = "zoomedCancer">
+          <img src = {zoomedCancer} height = "190" width = "390"></img>
+        </div>
+
     </div>
+    
+
 
   </div>
 
