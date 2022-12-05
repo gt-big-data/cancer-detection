@@ -1,14 +1,14 @@
     .files input {
-        outline: 2px dashed #ffffff;
+        outline: 2px dashed #c4c4c4;
         outline-offset: -10px;
         -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
         transition: outline-offset .15s ease-in-out, background-color .15s linear;
-        padding: 120px 0px 85px 35%;
+        padding: 100px 0px 55px 35%;
         text-align: center !important;
         margin: 0;
         width: 100% !important;
     }
-    .files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+    .files input:focus{     outline: 2px dashed #c4c4c4;  outline-offset: -10px;
         -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
         transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
      }
@@ -27,7 +27,7 @@
         background-size: 100%;
         background-repeat: no-repeat;
     }
-    .color input{ background-color:#f1f1f1;}
+    .color input{ background-color:#c4c4c4;}
     .files:before {
         position: absolute;
         bottom: 10px;
@@ -38,7 +38,7 @@
         content: " or drag it here. ";
         display: block;
         margin: 0 auto;
-        color: #2ea591;
+        color: #cfba65;
         font-weight: 600;
         text-transform: capitalize;
         text-align: center;
@@ -49,6 +49,6 @@
         top:200px;
         left:1025px;
         width:300px;
-        color:white;
+        color:#c4c4c4;
         font-family:optima;
     }
