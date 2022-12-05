@@ -1,7 +1,53 @@
 body {
-  background-color:rgb(24, 24, 84);
-}
+    background-color:rgb(24, 24, 84);
+    font-family: optima;
+    }
 
+.imageBox {
+    background-color:rgba(193, 193, 193, 0.775);
+    width:400px;
+    height: 200px;
+    position:absolute;
+    top:100px;
+    left:100px;
+  }
+
+  .navBar {
+    background-color:rgba(193, 193, 193, 0.775);
+    position:absolute;
+    top:5px;
+  }
+
+  .informationBox {
+    background-color:rgba(193, 193, 193, 0.775);
+    width:400px;
+    height: 200px;
+    position:absolute;
+    top:350px;
+    left:100px;
+  }
+
+  .resourcesBox {
+    background-color:rgba(193, 193, 193, 0.775);
+    width:400px;
+    height: 200px;
+    position:absolute;
+    top:350px;
+    left:600px;
+  }
+
+  .zoomBox {
+    background-color:rgba(193, 193, 193, 0.775);
+    width:400px;
+    height: 200px;
+    position:absolute;
+    top:100px;
+    left:600px;
+  }
+
+  .toolBar {
+    position:relative
+  }
 .imageBox {
   background-color:rgba(193, 193, 193, 0.775);
   width:400px;

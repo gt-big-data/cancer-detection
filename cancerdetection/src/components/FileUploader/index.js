@@ -25,13 +25,12 @@ export const FileUploader = ({}) => {
     };
 
     return (
-<<<<<<< HEAD
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <form method="post" action="#" id="#" onSubmit={onSubmit}>
                     <div class="form-group files">
-                        <label>Upload Your File </label>
+                        <label>Upload Your File</label>
                         <input type="file" class="form-control" multiple=""/>
                     </div>
                     <button>Submit</button>
@@ -39,17 +38,5 @@ export const FileUploader = ({}) => {
             </div>
         </div>
     </div>
-=======
-        <form method="post" action="#" id="#" onSubmit={onSubmit}>
-            <div class="form-group files">
-                <label>Upload Your Image </label>
-                <input type="image"
-                        onChange = {onInputChange}
-                        className="form-control"
-                        multiple/>
-            </div>
-            <button>Submit</button>
-          </form>
->>>>>>> parent of 057bf22 (Merge branch 'data-viz' of https://github.com/gt-big-data/cancer-detection into data-viz)
     )
 };
