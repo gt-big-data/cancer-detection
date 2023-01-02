@@ -6,3 +6,8 @@ Our main goal will be to create a system that can help entry-level doctors or do
 
 This system will determine the stage and severity of a tumor, and further provide resources to help users understand the diagnosis and formulate appropriate next steps. Equipped with support from an ML system, doctors can feel more comfortable in their diagnoses and treatment plans which means that more people can get the proper care they need.
 
+# Team Members
+Project Lead: Eshani Chauk
+Analysis: Harsika Gelivi, Ronak Agarwal
+Data Viz: Aryan Shah, Rama Khabbaz, Anthony Nguyen
+Platform: Tae Sung Uhm, Saksham Purbey
