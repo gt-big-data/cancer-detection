@@ -8,6 +8,9 @@ This system will determine the stage and severity of a tumor, and further provid
 
 # Team Members
 Project Lead: Eshani Chauk
+
 Analysis: Harsika Gelivi, Ronak Agarwal
+
 Data Viz: Aryan Shah, Rama Khabbaz, Anthony Nguyen
+
 Platform: Tae Sung Uhm, Saksham Purbey
