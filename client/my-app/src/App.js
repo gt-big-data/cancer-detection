@@ -11,10 +11,12 @@ import {
   GridItem,
   Image
 } from '@chakra-ui/react';
+import Navbar from './components/navbar.js';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
+      <Navbar/>
       <Grid
         h="800px"
         w="800px"
