@@ -4,7 +4,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 export default function Navbar() {
   return (
     <ChakraProvider>
-      <Center w="100%" bg="#34b1eb">
+      <Center w="100%" bg="#DFFDFF">
         <VStack>
           <HStack h="50px" spacing="100px">
             <Link href="https://google.com">Home</Link>

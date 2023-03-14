@@ -23,8 +23,7 @@ import Navbar from './components/navbar';
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <navbar />
-        <Flex alignItems='center' direction='column' gap='20px'>
+        <Flex alignItems='center' direction='column'>
           
           <Box id='page-title' justify="space-between" bg ='#90BEDE' w ='100%'>
             <Heading as = 'h1' align='center'>
@@ -33,6 +32,7 @@ function App() {
               </Text>
             </Heading>
           </Box>
+          <Navbar />
 
 
           <Box id='card-holder' w = '100%'>
