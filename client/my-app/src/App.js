@@ -18,10 +18,12 @@ import {
   extendTheme,
   Card, CardHeader, CardBody, CardFooter,
 } from '@chakra-ui/react';
+import Navbar from './components/navbar';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
+      <navbar />
         <Flex alignItems='center' direction='column' gap='20px'>
           
           <Box id='page-title' justify="space-between" bg ='#90BEDE' w ='100%'>
