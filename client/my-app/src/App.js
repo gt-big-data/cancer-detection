@@ -253,13 +253,13 @@ function App() {
                 
                 <Image
                   src='https://drive.google.com/uc?export=view&id=16p4bDesQaj0n7os9N_0yCSNIrQqzv0IA'
-                  alt='adivya sharma google drive image'
+                  alt='divya sharma google drive image'
                   borderRadius='lg'
                   h='25%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
-                  <Heading size='md'>Adivya Sharma</Heading>
+                  <Heading size='md'>Divya Sharma</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
                     Data Viz
                   </Text>
