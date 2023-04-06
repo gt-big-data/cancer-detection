@@ -15,6 +15,7 @@ import {
 import { theme }from './components/themeFile.js';
 import Navbar from './components/navbar.js';
 import Home from './pages/homePage.js';
+import AboutUsPage from './pages/ourTeam.js';
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <ChakraProvider theme={theme}>
         <Navbar />
         <Home />
+        <AboutUsPage />
       </ChakraProvider>
     </div>
   );

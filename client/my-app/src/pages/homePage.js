@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { screen } from '@testing-library/react';
 import { render } from '../test-utils';
 import App from '../App';
@@ -22,7 +22,14 @@ import { theme }from '../components/themeFile.js';
 
 
 
+
 const Home = () => {
+  const [image, setImage] = useState(null);
+  const onImageChange = (event) => {
+    if (event.target.files && event.target.files[0]) {
+      setImage(URL.createObjectURL(event.target.files[0]));
+    }
+  };
 	return (
     <ChakraProvider name="home" theme={theme} >
       <VStack spacing='10' bg="brand.200">
@@ -36,13 +43,14 @@ const Home = () => {
               <Input 
                 type="file"
                 size="md"
-                onChange={fileSelectedHandler}
+                onChange={onImageChange}
                 align="center"
               />
+              {image && <img src={image} alt="preview image" />}
           </Box>
         </Wrap>
         <Box bg="brand.300" spacing='4px' boxSize='lg' borderWidth="3px">
-          <Heading align="center" size='lg' minW='md'>Prediciton Output</Heading>
+          <Heading align="center" size='lg' minW='md'>Prediction Output</Heading>
           <Image src={"https://media.npr.org/assets/img/2015/04/10/spiral-ct-scan-3c3825f3d5213a499fa7790ebea1e6d317d14b58.jpg"}/>
         </Box>
       </VStack>
@@ -51,6 +59,8 @@ const Home = () => {
 };
     
 export default Home;
+
+
 
 
 
