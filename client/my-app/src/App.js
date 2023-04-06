@@ -122,8 +122,9 @@ function App() {
               <CardBody align ='center'>
                 
                 <Image
-                  src='https://nick-intl.mtvnimages.com/uri/mgid:file:gsp:kids-assets:/nick/properties/spongebob-squarepants/characters/spongebob-about-web-desktop.jpg?quality=0.75&height=460&width=460&matte=true&crop=true'
-                  alt='Green double couch with wooden legs'
+                  //src='https://drive.google.com/file/d/11jmiZM61ivIpLMZZ0JHSf69xZPuO1COt/view?usp=share_link'
+                  src = 'https://drive.google.com/uc?export=view&id=11jmiZM61ivIpLMZZ0JHSf69xZPuO1COt'
+                  alt='aryan google drive image'
                   borderRadius='lg'
                   h='25%'
                   align='center'
@@ -311,7 +312,7 @@ function App() {
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
-                  <Heading size='md'>James De Ocampo</Heading>
+                  <Heading size='md'>Jamez De Ocampo</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
                     Data Viz
                   </Text>
@@ -456,7 +457,7 @@ function App() {
           </GridItem>
 
         </Grid>
-        <Navbar />
+        {/* <Navbar /> */}
           
     </ChakraProvider>
   );
