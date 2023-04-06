@@ -356,7 +356,7 @@ function App() {
               <CardBody align ='center'>
                 
                 <Image
-                  src='https://drive.google.com/uc?export=view&id=16p4bDesQaj0n7os9N_0yCSNIrQqzv0IA'
+                  src='https://drive.google.com/uc?export=view&id=1vtYngWM_UHJRIVYi03UL9KYQS0oNyIAg'
                   alt='tony google drive image'
                   borderRadius='lg'
                   h='25%'
