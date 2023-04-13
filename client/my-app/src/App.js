@@ -47,7 +47,8 @@ function App() {
                   src='https://drive.google.com/uc?export=view&id=16p4bDesQaj0n7os9N_0yCSNIrQqzv0IA'
                   alt='eshani google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w='90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -70,10 +71,11 @@ function App() {
               <CardBody align ='center'>
                 
                 <Image
-                  src='https://drive.google.com/uc?export=view&id=16p4bDesQaj0n7os9N_0yCSNIrQqzv0IA'
+                  src='https://drive.google.com/uc?export=view&id=1AIPfSFvDk6WVHB-d3bXLMjouDPHuFK0I'
                   alt='ronak google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w= '90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -96,10 +98,11 @@ function App() {
               <CardBody align ='center'>
                 
                 <Image
-                  src='https://drive.google.com/uc?export=view&id=16p4bDesQaj0n7os9N_0yCSNIrQqzv0IA'
+                  src='https://drive.google.com/uc?export=view&id=1k_jmguKXW95n5EQNYTcjYjUv7Iq5Bo28'
                   alt='harshika google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w= '90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -125,7 +128,8 @@ function App() {
                   src = 'https://drive.google.com/uc?export=view&id=11jmiZM61ivIpLMZZ0JHSf69xZPuO1COt'
                   alt= 'aryan google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w='90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -151,7 +155,8 @@ function App() {
                   src='https://drive.google.com/uc?export=view&id=1all2ntmAgQyInZKOcWDSh6lZe4T0alXh'
                   alt='harinishree google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w= '90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -174,10 +179,11 @@ function App() {
               <CardBody align ='center'>
                 
                 <Image
-                  src='https://drive.google.com/uc?export=view&id=16p4bDesQaj0n7os9N_0yCSNIrQqzv0IA'
+                  src='https://drive.google.com/uc?export=view&id=1Rf2s5f_ZrjBEOpl24xqgrp2Lco5vuyvd'
                   alt='athanasios google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w= '90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -200,10 +206,11 @@ function App() {
               <CardBody align ='center'>
                 
                 <Image
-                  src='https://drive.google.com/uc?export=view&id=16p4bDesQaj0n7os9N_0yCSNIrQqzv0IA'
+                  src='https://drive.google.com/uc?export=view&id=1YnqhaQjUafQzp-spPa0Uax6LTWXWwskq'
                   alt='saksham google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w= '90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -229,7 +236,8 @@ function App() {
                   src='https://drive.google.com/uc?export=view&id=1hcx1NMt7kC9q4AQyl5CRMzACMFc94rT2'
                   alt='zeyad google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w= '90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -255,7 +263,8 @@ function App() {
                   src='https://drive.google.com/uc?export=view&id=16p4bDesQaj0n7os9N_0yCSNIrQqzv0IA'
                   alt='divya sharma google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w= '90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -281,7 +290,8 @@ function App() {
                   src='https://drive.google.com/uc?export=view&id=169GmT7ModjgBx7qi8t0DajQSpsrB4QsU'
                   alt='william google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w= '90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -307,7 +317,8 @@ function App() {
                   src='https://drive.google.com/uc?export=view&id=1qyjEdKfYTKN-40LEzQ-pWy1snqzY4ebb'
                   alt='jamez google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w= '90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -333,7 +344,8 @@ function App() {
                   src='https://drive.google.com/uc?export=view&id=16p4bDesQaj0n7os9N_0yCSNIrQqzv0IA'
                   alt='rama google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w= '90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -359,7 +371,8 @@ function App() {
                   src='https://drive.google.com/uc?export=view&id=1vtYngWM_UHJRIVYi03UL9KYQS0oNyIAg'
                   alt='tony google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w= '90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -385,7 +398,8 @@ function App() {
                   src='https://drive.google.com/uc?export=view&id=1cw9v_nGxglrdn8IwtJWxrrEkGiaA7sza'
                   alt='tae google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w= '90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -408,10 +422,11 @@ function App() {
               <CardBody align ='center'>
                 
                 <Image
-                  src='https://drive.google.com/uc?export=view&id=1eCQUOs2xzHq2agl3yO52g_3-TGdRcmoc'
+                  src='https://drive.google.com/uc?export=view&id=1BQV1N_5q7MNlEoI_eFj6DoBax0uW2Lxr'
                   alt='simona google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w='90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
@@ -437,7 +452,8 @@ function App() {
                   src='https://drive.google.com/uc?export=view&id=1LardVaKXtwFIwQPj9qRRlb1d_RwNg_xk'
                   alt='arrington google drive image'
                   borderRadius='lg'
-                  h='25%'
+                  h='50%'
+                  w='90%'
                   align='center'
                 />
                 <Stack mt='6' spacing='3' align='center'>
