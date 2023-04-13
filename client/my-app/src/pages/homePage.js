@@ -16,7 +16,8 @@ import {
   Image,
   Input,
   Wrap,
-  Heading
+  Heading,
+  Button
 } from '@chakra-ui/react';
 import { theme }from '../components/themeFile.js';
 
@@ -30,6 +31,18 @@ const Home = () => {
       setImage(URL.createObjectURL(event.target.files[0]));
     }
   };
+
+  //this.state = {_button : <Button isLoading loadingText='loading' colorScheme='teal'></Button>};
+
+  const [showLoader, setShowLoader] = useState(false)
+  const [showPrediction, setShowPrediction] = useState(null);
+
+  const onPrediction = () => {
+    setShowLoader(true)
+    setTimeout(() => setShowLoader(false), 1000)
+    setShowPrediction(Math.random() < .5 ? "Cancer Detected" : "No Cancer Detected")
+  };
+
 	return (
     <ChakraProvider name="home" theme={theme} >
       <VStack spacing='10' bg="brand.200">
@@ -37,6 +50,7 @@ const Home = () => {
           <Heading align="center" size='lg'>Introducing our</Heading>
           <Heading align="center" size='2xl'>Cancer Detection Algorithm</Heading>
         </Box>
+
         <Wrap justify='center' bg="brand.200" maxW="md" borderWidth="2px">
           <Box align="center">
             <Text as='b' fontSize='lg'>Please Insert Image</Text>
@@ -46,13 +60,18 @@ const Home = () => {
                 onChange={onImageChange}
                 align="center"
               />
-              {image && <img src={image} alt="preview image" />}
+              {image && <Image src={image} alt="preview image" />}
           </Box>
         </Wrap>
-        <Box bg="brand.300" spacing='4px' boxSize='lg' borderWidth="3px">
+        <Button isLoading={showLoader} loadingText='Predicting...' as='button' colorScheme='teal' size='md' onClick={onPrediction}>
+          Make Prediction
+        </Button>
+        <Box bg="brand.300" spacing='4px' boxSize='md' borderWidth="3px">
           <Heading align="center" size='lg' minW='md'>Prediction Output</Heading>
-          <Image src={"https://media.npr.org/assets/img/2015/04/10/spiral-ct-scan-3c3825f3d5213a499fa7790ebea1e6d317d14b58.jpg"}/>
+          <Text align='center' fontSize='4xl'>{showPrediction}</Text>
+          
         </Box>
+
       </VStack>
     </ChakraProvider>
 	)
@@ -81,3 +100,4 @@ const fileSelectedHandler = event => {
 const fileUploadHandler = () => {
   axios.post('my', this.state.selectedFiled.name)
 }
+
