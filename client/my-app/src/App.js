@@ -54,7 +54,7 @@ function App() {
                 <Stack mt='6' spacing='3' align='center'>
                   <Heading size='md'>Eshani Chauk</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
-                    Data Viz
+                    Team Lead
                   </Text>
                   <Text text-align='center'>
                     Computer Science major with experience in React and Java
@@ -81,7 +81,7 @@ function App() {
                 <Stack mt='6' spacing='3' align='center'>
                   <Heading size='md'>Ronak Agarwal</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
-                    Data Viz
+                    Analysis
                   </Text>
                   <Text text-align='center'>
                     Computer Science major with experience in React and Java
@@ -108,7 +108,7 @@ function App() {
                 <Stack mt='6' spacing='3' align='center'>
                   <Heading size='md'>Harshika Gelivi</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
-                    Data Viz
+                    Analysis
                   </Text>
                   <Text text-align='center'>
                     Computer Science major with experience in React and Java
@@ -135,7 +135,7 @@ function App() {
                 <Stack mt='6' spacing='3' align='center'>
                   <Heading size='md'>Aryan Shah</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
-                    Data Viz
+                    Analysis
                   </Text>
                   <Text text-align='center'>
                     Computer Science major with experience in React and Java
@@ -162,7 +162,7 @@ function App() {
                 <Stack mt='6' spacing='3' align='center'>
                   <Heading size='md'>Harinishree Sathu</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
-                    Data Viz
+                    Analysis
                   </Text>
                   <Text text-align='center'>
                     Computer Science major with experience in React and Java
@@ -189,7 +189,7 @@ function App() {
                 <Stack mt='6' spacing='3' align='center'>
                   <Heading size='md'>Athanasios Taprantzis</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
-                    Data Viz
+                    Analysis
                   </Text>
                   <Text text-align='center'>
                     Computer Science major with experience in React and Java
@@ -216,7 +216,7 @@ function App() {
                 <Stack mt='6' spacing='3' align='center'>
                   <Heading size='md'>Saksham Purbey</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
-                    Data Viz
+                    Analysis
                   </Text>
                   <Text text-align='center'>
                     Computer Science major with experience in React and Java
@@ -243,7 +243,7 @@ function App() {
                 <Stack mt='6' spacing='3' align='center'>
                   <Heading size='md'>Zeyad Al Sakhi</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
-                    Data Viz
+                    Platform
                   </Text>
                   <Text text-align='center'>
                     Computer Science major with experience in React and Java
@@ -270,7 +270,7 @@ function App() {
                 <Stack mt='6' spacing='3' align='center'>
                   <Heading size='md'>Divya Sharma</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
-                    Data Viz
+                    Platform
                   </Text>
                   <Text text-align='center'>
                     Computer Science major with experience in React and Java
@@ -297,7 +297,7 @@ function App() {
                 <Stack mt='6' spacing='3' align='center'>
                   <Heading size='md'>William Shutt</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
-                    Data Viz
+                    Platform
                   </Text>
                   <Text text-align='center'>
                     Computer Science major with experience in React and Java
@@ -324,7 +324,7 @@ function App() {
                 <Stack mt='6' spacing='3' align='center'>
                   <Heading size='md'>Jamez De Ocampo</Heading>
                   <Text size='md' fontStyle='italic' align='center'>
-                    Data Viz
+                    Platform
                   </Text>
                   <Text text-align='center'>
                     Computer Science major with experience in React and Java
