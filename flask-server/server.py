@@ -9,64 +9,74 @@ import torchvision.transforms as transforms
 import torch.nn.functional as F
 import numpy as np
 import joblib
-
+import PIL
+from PIL import Image, ImageOps
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
+CORS(app)
 
-@app.route("/test", )
-@app.route("/predict", methods=['POST'])
+
+@app.route("/predict", methods=['POST'], strict_slashes=False)
 def predict():
     if request.method == 'POST':
         # we will get the file from the request
-        file = request.files['file']
-        # convert that to bytes
-        img_bytes = file.read()
-        class_id, class_name = get_prediction(image_bytes=img_bytes)
-        return jsonify({'class_id': class_id, 'class_name': class_name})
+        # file = request.files['file']
+        # # convert that to bytes
+        # img_bytes = file.read()
+        # class_id, class_name = get_prediction(image_bytes=img_bytes)
+        
+        # model = joblib.dump("./rfModel.joblib")
+        # loadedRf = joblib.load("./rfModel.joblib")
+
+        # img = Image.create(request.data['file'])
+        # img = img.resize((150,150))
+        # grayImg = ImageOps.grayscale(img)
+        # finalImg = grayImg.flatten()/255
+        # new = np.expand_dims(finalImg, axis =0)
+        return "hi";
+        # return jsonify({'prediction': loadedRf.predict(new)});
+        
+        # return jsonify({'class_id': class_id, 'class_name': class_name})
 
 
-model = joblib.dump("./rfModel.joblib")
-loadedRf = joblib.load("./rfModel.joblib")
-loadedRf.predict(Xtext)
+# def clean(): 
+#     #data processing
+#     rootdir = Path('/content/cancer-detection/Dataset_BUSI_with_GT')
+#     images = []
+#     labels = []
 
+#     #os.walk to traverse files in python
 
-def clean(): 
-    #data processing
-    rootdir = Path('/content/cancer-detection/Dataset_BUSI_with_GT')
-    images = []
-    labels = []
+#     for subdir, dirs, files in os.walk(rootdir):
+#     #subdirectory, directory, file partition in the root directory
+#         for file in files:
+#             #traversing through each file
+#             if file.endswith(').png'):
+#                 #the parantheses to just get the scans, not the masks
+#                 full_path = os.path.join(subdir, file)
 
-    #os.walk to traverse files in python
+#                 #create image from full path, size is 150 by 150
+#                 img = PILImage.create(full_path)
 
-    for subdir, dirs, files in os.walk(rootdir):
-    #subdirectory, directory, file partition in the root directory
-        for file in files:
-            #traversing through each file
-            if file.endswith(').png'):
-                #the parantheses to just get the scans, not the masks
-                full_path = os.path.join(subdir, file)
+#                 #resize and grayscale
+#                 img = img.resize((150,150))
+#                 grayImg = ImageOps.grayscale(img)
 
-                #create image from full path, size is 150 by 150
-                img = PILImage.create(full_path)
+#                 #flatten images to 1d array, add to images array
+#                 images.append(np.array(grayImg).flatten()/255)
 
-                #resize and grayscale
-                img = img.resize((150,150))
-                grayImg = ImageOps.grayscale(img)
+#                 #add respective label
 
-                #flatten images to 1d array, add to images array
-                images.append(np.array(grayImg).flatten()/255)
+#                 if 'benign' in full_path:
+#                     labels.append(0)
+#                 elif 'malignant' in full_path:
+#                     labels.append(1)
+#                 elif 'normal' in full_path:
+#                     labels.append(2)
 
-                #add respective label
-
-                if 'benign' in full_path:
-                    labels.append(0)
-                elif 'malignant' in full_path:
-                    labels.append(1)
-                elif 'normal' in full_path:
-                    labels.append(2)
-
-    cancerImages = np.array(images)
-    return cancerImages
+#     cancerImages = np.array(images)
+#     return cancerImages
 if __name__ == "__main__":
     app.run(debug=True)
     

@@ -23,15 +23,25 @@ import {
 import { theme }from '../components/themeFile.js';
 
 
-
-
 const Home = () => {
   const [image, setImage] = useState(null);
   const onImageChange = (event) => {
     if (event.target.files && event.target.files[0]) {
       setImage(URL.createObjectURL(event.target.files[0]));
-      fetch('/predict').then(response => response.json().then(data => {console.log(data)}))
+      const data = new FormData();
+      data.append("file", event.target.files[0]);
+      fetch('http://localhost:5000/predict', {
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            
+        },
+        mode: 'no-cors',
+        body: data,
+    }).then(response => response.json().then(data => {console.log(data)}))
     }
+    console.log("hi");
   };
 
   //this.state = {_button : <Button isLoading loadingText='loading' colorScheme='teal'></Button>};
