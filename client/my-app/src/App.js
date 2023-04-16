@@ -56,9 +56,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Team Lead
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/eshani-chauk/" isExternal>
+                    linkedin.com/in/eshani-chauk/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -83,9 +83,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Analysis
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/ronak-agarwal9/" isExternal>
+                    linkedin.com/in/ronak-agarwal9/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -110,9 +110,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Analysis
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/harshika-gelivi/" isExternal>
+                    linkedin.com/in/harshika-gelivi/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -137,9 +137,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Analysis
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/aryan-shah7/" isExternal>
+                    linkedin.com/in/aryan-shah7/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -164,9 +164,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Analysis
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/harinishreesathu/" isExternal>
+                    linkedin.com/in/harinishreesathu/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -191,9 +191,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Analysis
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/athanasios-taprantzis-7227811b8/" isExternal>
+                    linkedin.com/in/athanasios-taprantzis-7227811b8/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -218,9 +218,10 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Analysis
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/saksham-purbey-17b69516b/" isExternal>
+                    linkedin.com/in/saksham-purbey-17b69516b/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -245,9 +246,10 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Platform
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/zeyadalsakhi/" isExternal>
+                    linkedin.com/in/zeyadalsakhi/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -260,7 +262,7 @@ function App() {
               <CardBody align ='center'>
                 
                 <Image
-                  src='https://drive.google.com/uc?export=view&id=16p4bDesQaj0n7os9N_0yCSNIrQqzv0IA'
+                  src='https://drive.google.com/uc?export=view&id=1UsrpIopPrLiTMTFP0LBKZqlTGJONqAQ0'
                   alt='divya sharma google drive image'
                   borderRadius='lg'
                   h='50%'
@@ -272,9 +274,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Platform
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/divyaasharmaa/" isExternal>
+                    linkedin.com/in/divyaasharmaa/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -299,9 +301,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Platform
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/william-shutt2/" isExternal>
+                    linkedin.com/in/william-shutt2/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -326,9 +328,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Platform
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/jamez-de-ocampo-75a467256/" isExternal>
+                    linkedin.com/in/jamez-de-ocampo-75a467256/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -341,7 +343,7 @@ function App() {
               <CardBody align ='center'>
                 
                 <Image
-                  src='https://drive.google.com/uc?export=view&id=16p4bDesQaj0n7os9N_0yCSNIrQqzv0IA'
+                  src='https://drive.google.com/uc?export=view&id=16SuMzfGf1Mv-MMCuVhAUrYrrFZQTObgM'
                   alt='rama google drive image'
                   borderRadius='lg'
                   h='50%'
@@ -353,9 +355,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Data Viz
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/rama-khabbaz-88504a20b/" isExternal>
+                    linkedin.com/in/rama-khabbaz-88504a20b/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -380,9 +382,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Data Viz
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/anthonynguyenv/" isExternal>
+                    linkedin.com/in/anthonynguyenv/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -407,9 +409,10 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Data Viz
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/taesung-uhm-88577b76/" isExternal>
+                    linkedin.com/in/taesung-uhm-88577b76/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -434,9 +437,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Data Viz
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/simone-ivanov/" isExternal>
+                    linkedin.com/in/simone-ivanov/
+                  </Link>
 
                 </Stack>
               </CardBody>
@@ -461,9 +464,9 @@ function App() {
                   <Text size='md' fontStyle='italic' align='center'>
                     Data Viz
                   </Text>
-                  <Text text-align='center'>
-                    Computer Science major with experience in React and Java
-                  </Text>
+                  <Link color='teal.500' href = "https://www.linkedin.com/in/arrington-goss/" isExternal>
+                    linkedin.com/in/arrington-goss/
+                  </Link>
 
                 </Stack>
               </CardBody>
