@@ -3,6 +3,7 @@ import { screen } from '@testing-library/react';
 import { render } from '../test-utils';
 import App from '../App';
 import axios from 'axios';
+
 import {
   ChakraProvider,
   Box,
@@ -29,6 +30,7 @@ const Home = () => {
   const onImageChange = (event) => {
     if (event.target.files && event.target.files[0]) {
       setImage(URL.createObjectURL(event.target.files[0]));
+      fetch('/predict').then(response => response.json().then(data => {console.log(data)}))
     }
   };
 

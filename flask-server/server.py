@@ -10,15 +10,24 @@ import torch.nn.functional as F
 import numpy as np
 import joblib
 
+
 app = Flask(__name__)
 
+@app.route("/test", )
 @app.route("/predict", methods=['POST'])
 def predict():
-    return jsonify({'class_id': 'IMAGE_NET_XXX', 'class_name': 'Cat'})
+    if request.method == 'POST':
+        # we will get the file from the request
+        file = request.files['file']
+        # convert that to bytes
+        img_bytes = file.read()
+        class_id, class_name = get_prediction(image_bytes=img_bytes)
+        return jsonify({'class_id': class_id, 'class_name': class_name})
 
 
+model = joblib.dump("./rfModel.joblib")
 loadedRf = joblib.load("./rfModel.joblib")
-loadedRf.predict(Xtest)
+loadedRf.predict(Xtext)
 
 
 def clean(): 
@@ -57,6 +66,7 @@ def clean():
                     labels.append(2)
 
     cancerImages = np.array(images)
+    return cancerImages
 if __name__ == "__main__":
     app.run(debug=True)
     
