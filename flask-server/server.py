@@ -31,10 +31,8 @@ def predict():
         img = img.convert('L') #greyscale
         img = img.getdata()
         # grayImg = ImageOps.grayscale(img)
-        # print(type(grayImg))
         # finalImg = img.flatten()/255
         new = np.expand_dims(img, axis =0)
-        print(type(loadedRf.predict(new)))
         num = loadedRf.predict(new)[0]
         res = str(num)
         return jsonify(res)

@@ -8,18 +8,12 @@ import {
   ChakraProvider,
   Box,
   Text,
-  Link,
   VStack,
-  HStack,
-  Code,
-  Grid,
-  GridItem,
   Image,
   Input,
   Wrap,
   Heading,
   Button,
-  systemProps,
 } from '@chakra-ui/react';
 import { theme } from '../components/themeFile.js';
 
@@ -28,6 +22,7 @@ const Home = () => {
   const onImageChange = async (event) => {
     if (event.target.files && event.target.files[0]) {
       setImage(event.target.files[0]);
+      setShowPrediction("");
     }
   };
 
