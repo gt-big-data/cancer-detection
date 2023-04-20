@@ -12,7 +12,8 @@ import joblib
 import PIL
 from PIL import Image, ImageOps
 from flask_cors import CORS, cross_origin
-
+from io import BytesIO
+import pickle
 app = Flask(__name__)
 CORS(app)
 
@@ -24,20 +25,20 @@ def testing():
 def predict():
     if request.method == 'POST':
         # we will get the file from the request
-        # file = request.files['file']
-        # # convert that to bytes
-        # img_bytes = file.read()
-        # class_id, class_name = get_prediction(image_bytes=img_bytes)
-        loadedRf = joblib.load("./rFModel.joblib")
-
-        img = Image.create(request.data['file'])
+        loadedRf = joblib.load("./model_joblib.pkl")
+        img = Image.open((request.files['file']))
         img = img.resize((150,150))
-        grayImg = ImageOps.grayscale(img)
-        finalImg = grayImg.flatten()/255
-        new = np.expand_dims(finalImg, axis =0)
-
-        return jsonify({'prediction': loadedRf.predict(new)});
-        
+        img = img.convert('L') #greyscale
+        img = img.getdata()
+        # grayImg = ImageOps.grayscale(img)
+        # print(type(grayImg))
+        # finalImg = img.flatten()/255
+        new = np.expand_dims(img, axis =0)
+        print(type(loadedRf.predict(new)))
+        num = loadedRf.predict(new)[0]
+        res = str(num)
+        return jsonify(res)
+        # return jsonify({'prediction': loadedRf.predict(new)});
         # return jsonify({'class_id': class_id, 'class_name': class_name})
 
 

@@ -8,7 +8,7 @@ export default function Navbar() {
     <ChakraProvider theme={theme}>
       <Center w="100%" bg="brand.300">
         <HStack h="50px" spacing="100px" as="b">
-          <HLink to="#ourMissionPage">Our Mission</HLink>
+          <HLink to="#ourMissionPage" smooth>Our Mission</HLink>
           <HLink to="#aboutOurModelPage" smooth>About the Model</HLink>
           <HLink to="#ourTeamPage" smooth>Our Team</HLink>
         </HStack>
