@@ -16,6 +16,8 @@ import { theme } from './components/themeFile.js';
 import Navbar from './components/navbar.js';
 import Home from './pages/homePage.js';
 import AboutUsPage from './pages/ourTeam.js';
+import AboutOurModel from './pages/aboutOurModelPage.js';
+import OurMissionPage from './pages/ourMissionPage.js';
 // import { HashLink as HLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router,
@@ -30,8 +32,15 @@ function App() {
 
         <ChakraProvider theme={theme}>
           <Navbar />
+          <Box w="100" h="10px"/>
           <Home />
-          <AboutUsPage />
+          <Box w="100" h="10px"/>
+          <OurMissionPage/>
+          <Box w="100" h="10px"/>
+          <AboutOurModel/>
+          <Box w="100" h="10px"/>
+          <AboutUsPage />          
+          <Box w="100" h="10px"/>
         </ChakraProvider>
 
     </BrowserRouter>

@@ -16,6 +16,9 @@ from flask_cors import CORS, cross_origin
 app = Flask(__name__)
 CORS(app)
 
+@app.route("/testing")
+def testing():
+    return "hi"
 
 @app.route("/predict", methods=['POST'], strict_slashes=False)
 def predict():
@@ -25,17 +28,15 @@ def predict():
         # # convert that to bytes
         # img_bytes = file.read()
         # class_id, class_name = get_prediction(image_bytes=img_bytes)
-        
-        # model = joblib.dump("./rfModel.joblib")
-        # loadedRf = joblib.load("./rfModel.joblib")
+        loadedRf = joblib.load("./rFModel.joblib")
 
-        # img = Image.create(request.data['file'])
-        # img = img.resize((150,150))
-        # grayImg = ImageOps.grayscale(img)
-        # finalImg = grayImg.flatten()/255
-        # new = np.expand_dims(finalImg, axis =0)
-        return "hi";
-        # return jsonify({'prediction': loadedRf.predict(new)});
+        img = Image.create(request.data['file'])
+        img = img.resize((150,150))
+        grayImg = ImageOps.grayscale(img)
+        finalImg = grayImg.flatten()/255
+        new = np.expand_dims(finalImg, axis =0)
+
+        return jsonify({'prediction': loadedRf.predict(new)});
         
         # return jsonify({'class_id': class_id, 'class_name': class_name})
 

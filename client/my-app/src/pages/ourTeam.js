@@ -1,33 +1,22 @@
 import React from 'react';
-import { screen } from '@testing-library/react';
-import { render } from '../test-utils';
-import App from '../App';
 import {
   ChakraProvider,
   Box,
   Text,
   Link,
-  VStack,
-  Code,
   Grid,
   GridItem,
   Image,
-  Flex,
   Heading,
-  Center,
-  Spacer,
   Stack,
-  extendTheme,
   Card,
-  CardHeader,
   CardBody,
-  CardFooter,
 } from '@chakra-ui/react';
 import { theme } from '../components/themeFile.js';
 
 const AboutUsPage = () => {
   return (
-    <section id="ourteam">
+    <section id="ourTeamPage">
       <ChakraProvider theme={theme}>
         <Box id="page-title" justify="space-between" bg="#90BEDE" w="100%">
           <Heading as="h1" align="center">
